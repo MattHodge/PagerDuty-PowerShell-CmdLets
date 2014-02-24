@@ -1,4 +1,7 @@
 ﻿# Resolve Event
+# 
+# Add in the "Action Library" in WhatsUp
+# Make sure you run "Set-ExecutionPolicy RemoteSigned" on the x86 version of PowerShell as this is what WhatsUp uses.
 
 $DeviceDisplayName = "%Device.DisplayName"
 $DeviceState = "%Device.State"
