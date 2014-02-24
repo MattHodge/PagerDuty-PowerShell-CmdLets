@@ -2,8 +2,8 @@
 
 PowerShell CmdLets for using the PagerDuty API. 
 
-* *Send-PagerDutyEvent* - allows you to send Trigger, Acknowledge and Resolve events to the PagerDuty API.
-* *Get-PagerDutyEvent* - gets a list of events from PagerDuty.
+* `Send-PagerDutyEvent` - allows you to send Trigger, Acknowledge and Resolve events to the PagerDuty API.
+* `Get-PagerDutyEvent` - gets a list of events from PagerDuty.
 
 ## Requirements
 * In PagerDuty Admin Console, create a *Generic API* service for `Send-PagerDutyEvent` to use. You will need the *Service API Key*
@@ -16,5 +16,6 @@ PowerShell CmdLets for using the PagerDuty API.
 3. Use the CmdLet built in help `Get-Help Send-PagerDutyEvent` or `Get-Help Get-PagerDutyEvent`
 
 ## Links
-* (http://www.pagerduty.com/ "PagerDuty")
-* (http://developer.pagerduty.com/documentation/integration/events "PagerDuty Event API")
+* PagerDuty - http://www.pagerduty.com/
+* PagerDuty Event API - http://developer.pagerduty.com/documentation/integration/events
+* My Blog - http://www.hodgkins.net.au
