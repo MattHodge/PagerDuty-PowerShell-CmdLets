@@ -19,7 +19,7 @@ CompanyName = ''
 Copyright = 'c 2016 All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'PowerShell module to interact with Pager Duty Events API'
+Description = "PowerShell module to interact with PagerDuty's Events API"
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -83,7 +83,7 @@ PrivateData = @{
     # https://connect.microsoft.com/PowerShell/feedback/details/421837
     PSData = @{
         # The primary categorization of this module (from the TechNet Gallery tech tree).
-        Category = "Scripting installation of modules from GitHub"
+        Category = "Cmdlets for interacting with PagerDuty's Event API"
 
         # Keyword tags to help users find this module via navigations and search.
         Tags = @("PagerDuty", "PowerShell","Module")
@@ -92,10 +92,10 @@ PrivateData = @{
         #IconUri = "http://pesterbdd.com/images/Pester.png"
 
         # The web address of this module's project or support homepage.
-        ProjectUri = "https://github.com/dfinke/InstallModuleFromGitHub"
+        ProjectUri = "https://github.com/MattHodge/PagerDuty-PowerShell-CmdLets"
 
         # The web address of this module's license. Points to a page that's embeddable and linkable.
-        LicenseUri = "https://github.com/dfinke/InstallModuleFromGitHub/blob/master/LICENSE.txt"
+        LicenseUri = ""
 
         # Release notes for this particular version of the module
         #ReleaseNotes = $True
